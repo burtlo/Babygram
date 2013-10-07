@@ -21,6 +21,8 @@
 		E2D3E7B918033B4600454022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D3E79B18033B4600454022 /* UIKit.framework */; };
 		E2D3E7C118033B4600454022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2D3E7BF18033B4600454022 /* InfoPlist.strings */; };
 		E2D3E7C318033B4600454022 /* BabygramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D3E7C218033B4600454022 /* BabygramTests.m */; };
+		E2D3E7CD18033E3100454022 /* franklin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2D3E7CC18033E3100454022 /* franklin.jpg */; };
+		E2D3E7CF18033EBF00454022 /* magician.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2D3E7CE18033EBF00454022 /* magician.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		E2D3E7BE18033B4600454022 /* BabygramTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BabygramTests-Info.plist"; sourceTree = "<group>"; };
 		E2D3E7C018033B4600454022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2D3E7C218033B4600454022 /* BabygramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabygramTests.m; sourceTree = "<group>"; };
+		E2D3E7CC18033E3100454022 /* franklin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = franklin.jpg; sourceTree = "<group>"; };
+		E2D3E7CE18033EBF00454022 /* magician.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = magician.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		E2D3E79D18033B4600454022 /* Babygram */ = {
 			isa = PBXGroup;
 			children = (
+				E2D3E7CE18033EBF00454022 /* magician.jpg */,
+				E2D3E7CC18033E3100454022 /* franklin.jpg */,
 				E2D3E7A618033B4600454022 /* MEXAppDelegate.h */,
 				E2D3E7A718033B4600454022 /* MEXAppDelegate.m */,
 				E2D3E7A918033B4600454022 /* Main.storyboard */,
@@ -230,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2D3E7B018033B4600454022 /* Images.xcassets in Resources */,
+				E2D3E7CF18033EBF00454022 /* magician.jpg in Resources */,
 				E2D3E7A218033B4600454022 /* InfoPlist.strings in Resources */,
+				E2D3E7CD18033E3100454022 /* franklin.jpg in Resources */,
 				E2D3E7AB18033B4600454022 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

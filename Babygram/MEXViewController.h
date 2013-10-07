@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MEXViewController : UIViewController
+@interface MEXViewController : UIViewController <UIImagePickerControllerDelegate, UITextViewDelegate, UINavigationControllerDelegate>
 
 @end
