@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2656B98180C83E900542C1D /* MEXEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2656B97180C83E900542C1D /* MEXEventsViewController.m */; };
+		E2656B99180C83E900542C1D /* MEXEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2656B97180C83E900542C1D /* MEXEventsViewController.m */; };
+		E2656B9C180C8FB500542C1D /* MEXEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E2656B9B180C8FB500542C1D /* MEXEvent.m */; };
+		E2656B9D180C8FB500542C1D /* MEXEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E2656B9B180C8FB500542C1D /* MEXEvent.m */; };
+		E2656BA0180C948100542C1D /* MEXEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = E2656B9F180C948100542C1D /* MEXEvents.m */; };
+		E2656BA1180C948100542C1D /* MEXEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = E2656B9F180C948100542C1D /* MEXEvents.m */; };
 		E2D3E79818033B4600454022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D3E79718033B4600454022 /* Foundation.framework */; };
 		E2D3E79A18033B4600454022 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D3E79918033B4600454022 /* CoreGraphics.framework */; };
 		E2D3E79C18033B4600454022 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D3E79B18033B4600454022 /* UIKit.framework */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2656B96180C83E900542C1D /* MEXEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXEventsViewController.h; sourceTree = "<group>"; };
+		E2656B97180C83E900542C1D /* MEXEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXEventsViewController.m; sourceTree = "<group>"; };
+		E2656B9A180C8FB500542C1D /* MEXEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXEvent.h; sourceTree = "<group>"; };
+		E2656B9B180C8FB500542C1D /* MEXEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXEvent.m; sourceTree = "<group>"; };
+		E2656B9E180C948100542C1D /* MEXEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEXEvents.h; sourceTree = "<group>"; };
+		E2656B9F180C948100542C1D /* MEXEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEXEvents.m; sourceTree = "<group>"; };
 		E2D3E79418033B4600454022 /* Babygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Babygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D3E79718033B4600454022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2D3E79918033B4600454022 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,6 +137,12 @@
 				E2D3E7AD18033B4600454022 /* MEXViewController.m */,
 				E2D3E7AF18033B4600454022 /* Images.xcassets */,
 				E2D3E79E18033B4600454022 /* Supporting Files */,
+				E2656B96180C83E900542C1D /* MEXEventsViewController.h */,
+				E2656B97180C83E900542C1D /* MEXEventsViewController.m */,
+				E2656B9A180C8FB500542C1D /* MEXEvent.h */,
+				E2656B9B180C8FB500542C1D /* MEXEvent.m */,
+				E2656B9E180C948100542C1D /* MEXEvents.h */,
+				E2656B9F180C948100542C1D /* MEXEvents.m */,
 			);
 			path = Babygram;
 			sourceTree = "<group>";
@@ -259,8 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2D3E7A418033B4600454022 /* main.m in Sources */,
+				E2656BA0180C948100542C1D /* MEXEvents.m in Sources */,
 				E2D3E7AE18033B4600454022 /* MEXViewController.m in Sources */,
+				E2656B98180C83E900542C1D /* MEXEventsViewController.m in Sources */,
 				E2D3E7A818033B4600454022 /* MEXAppDelegate.m in Sources */,
+				E2656B9C180C8FB500542C1D /* MEXEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2656B99180C83E900542C1D /* MEXEventsViewController.m in Sources */,
+				E2656BA1180C948100542C1D /* MEXEvents.m in Sources */,
 				E2D3E7C318033B4600454022 /* BabygramTests.m in Sources */,
+				E2656B9D180C8FB500542C1D /* MEXEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +493,7 @@
 				E2D3E7C818033B4600454022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2D3E7C918033B4600454022 /* Build configuration list for PBXNativeTarget "BabygramTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +502,7 @@
 				E2D3E7CB18033B4600454022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
