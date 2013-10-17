@@ -12,7 +12,7 @@
 
 + (id)create:(NSDictionary *)dictionary;
 
-@property (strong, nonatomic) NSString *babyImageURL;
+@property (strong, nonatomic) UIImage *babyImage;
 @property (strong, nonatomic) NSString *babyDescription;
 @property (strong, nonatomic) NSDate *babyDate;
 

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MEXEventsViewController : UIViewController
+@interface MEXEventsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end

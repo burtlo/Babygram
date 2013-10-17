@@ -11,7 +11,7 @@
 
 @interface MEXEvents : NSObject
 
-+ (void) save: (MEXEvent *) event;
++ (void)save:(MEXEvent *)event;
 + (NSMutableArray *)all;
 
 @end

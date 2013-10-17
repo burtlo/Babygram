@@ -26,7 +26,7 @@
         // Let's do work
         // unpack the dictionary and assign all the values to our properties
 //        [self setBabyImageURL:[dictionary objectForKey:@"image"]];
-        self.babyImageURL = [dictionary objectForKey:@"image"];
+        self.babyImage = [dictionary objectForKey:@"image"];
         self.babyDescription = [dictionary objectForKey:@"description"];
         self.babyDate = [dictionary objectForKey:@"created_at"];
     }

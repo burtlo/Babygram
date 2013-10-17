@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MEXEvents.h"
 
 @interface MEXViewController : UIViewController <UIImagePickerControllerDelegate, UITextViewDelegate, UINavigationControllerDelegate>
+
+@property (strong, nonatomic) MEXEvent *event;
 
 @end

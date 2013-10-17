@@ -7,8 +7,6 @@
 //
 
 #import "MEXViewController.h"
-//#import "MEXEvent.h"
-#import "MEXEvents.h"
 
 @interface MEXViewController ()
 
@@ -22,6 +20,8 @@
 
 @implementation MEXViewController
 
+#pragma mark - ViewController Methods
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -29,6 +29,12 @@
     [[self babyText] setDelegate:self];
     [[self doneButton] setEnabled:NO];
     [[self navigationItem] setTitle: @"Babygram"];
+    
+    // if the event is not NULL
+    if ([self event] != NULL) {
+        [[self babyText] setText:[[self event] babyDescription]];
+        [[self babyImage] setImage:[[self event] babyImage]];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,6 +42,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+#pragma mark - Creating an Entry
 
 - (IBAction)saveEntry:(id)sender {
     NSLog(@"saving new entry");
@@ -59,6 +68,9 @@
     [[self navigationController] popViewControllerAnimated:YES];
 }
 
+
+#pragma mark - Taking a Picture
+
 - (IBAction)takePicture:(id)sender {
     NSLog(@"Pushing Button");
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
@@ -74,6 +86,8 @@
     return [UIImage imageNamed:@"magician.jpg"];
 }
 
+#pragma mark - UIImagePickerControllerDelegate adherence
+
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     NSLog(@"Picked an Image");
     
@@ -84,13 +98,14 @@
     
     
     [picker dismissViewControllerAnimated:YES completion:^{}];
-
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
     NSLog(@"Cancelled");
     [picker dismissViewControllerAnimated:YES completion:^{}];
 }
+
+#pragma mark - UITextViewDelegate Adherence
 
 - (BOOL)textViewShouldBeginEditing:(UITextView *)textView {
     NSLog(@"shouldBeginEditing");
