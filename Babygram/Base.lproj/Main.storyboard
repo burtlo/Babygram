@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="G1l-UU-sNZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="G1l-UU-sNZ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--Events View Controller-->
+        <!--Events View Controller - Babygram-->
         <scene sceneID="P8Y-vr-biu">
             <objects>
                 <viewController id="01u-Pa-No1" customClass="MEXEventsViewController" sceneMemberID="viewController">
@@ -24,7 +24,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ltT-8N-oWt">
+                    <navigationItem key="navigationItem" title="Babygram" id="ltT-8N-oWt">
                         <barButtonItem key="rightBarButtonItem" title="+" id="QjC-AW-PIt">
                             <connections>
                                 <segue destination="vXZ-lx-hvc" kind="push" identifier="showEvent" id="Ej6-Cn-wLj"/>
@@ -102,7 +102,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="franklin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KVs-Ku-n20">
-                                <rect key="frame" x="0.0" y="86" width="320" height="245"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="245"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jpt-q8-CRq">
